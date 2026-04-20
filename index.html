@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
 <<<<<<< HEAD
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
       <!-- SEO meta teglar -->
   <title>Ob-havo UZ - O'zbekistonda ob-havo ma'lumotlari</title>
   <meta name="description" content="O'zbekiston va dunyo shaharlarida joriy ob-havo, 7 kunlik, 10 kunlik, 15 kunlik bashorat. Toshkent, Samarqand, Buxoro ob-havosi.">
@@ -22,6 +23,27 @@
     <meta name="google-site-verification" content="d8f3c7b7fd667cd2" />
 >>>>>>> e7f2f1af34bc2bb606ffa2fc39362d93ba0bc311
     <title>Ob-havo malumotlari</title>
+=======
+    
+    <!-- SEO meta teglar -->
+    <title>Ob-havo UZ - O'zbekistonda ob-havo ma'lumotlari</title>
+    <meta name="description" content="O'zbekiston va dunyo shaharlarida joriy ob-havo, 7 kunlik, 10 kunlik, 15 kunlik bashorat. Toshkent, Samarqand, Buxoro ob-havosi.">
+    <meta name="keywords" content="ob-havo, ob havo, weather uzbekistan, toshkent ob-havo, 7 kunlik bashorat, o'zbekcha ob-havo">
+    <meta name="author" content="Jorabek Rayimqulov">
+    
+    <!-- Yandex va Google verification -->
+    <meta name="yandex-verification" content="0b0a77b6c8957e89" />
+    <meta name="google-site-verification" content="d8f3c7b7fd667cd2" />
+    
+    <!-- Open Graph (Facebook, Telegram) -->
+    <meta property="og:title" content="Ob-havo UZ">
+    <meta property="og:description" content="O'zbekistonda aniq ob-havo ma'lumotlari va bashorat">
+    <meta property="og:url" content="https://rayimqulovjorabek02.github.io/ob_havo/">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
+    
+>>>>>>> 2477b9531462c8a7922f71271fc60ea9272ea3e1
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -37,16 +59,17 @@
                 <button id="locationBtn"><i class="fas fa-location-arrow"></i> Joylashuvim</button>
             </div>
 
-            <!-- SEARCH CONTAINER OLDINGI KODDAN KEYIN -->
-        <div class="forecast-tabs">
+            <!-- Tab tugmalar -->
+            <div class="forecast-tabs">
                 <button class="tab-btn active" data-range="daily">Kunlik</button>
                 <button class="tab-btn" data-range="7days">7 kunlik</button>
                 <button class="tab-btn" data-range="10days">10 kunlik</button>
                 <button class="tab-btn" data-range="15days">15 kunlik</button>
-        </div>
+            </div>
 
-<!-- Bashorat kartalari shu yerda paydo bo‘ladi -->
-<div id="forecastPanel" class="forecast-panel"></div>
+            <!-- Bashorat kartalari -->
+            <div id="forecastPanel" class="forecast-panel"></div>
+            
             <!-- Yuklanmoqda -->
             <div id="loading" class="loading">
                 <i class="fas fa-spinner fa-spin"></i> Yuklanmoqda...
@@ -74,7 +97,7 @@
                     <div class="detail-card">
                         <i class="fas fa-eye"></i>
                         <div>
-                            <p>Ko‘rinib turishi</p>
+                            <p>Ko'rinib turishi</p>
                             <span id="visibility"></span>
                         </div>
                     </div>
@@ -122,13 +145,14 @@
     </div>
 
     <script src="script.js"></script>
+    
     <!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'GA_TRACKING_ID');
-</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GA_TRACKING_ID');
+    </script>
 </body>
 </html>
